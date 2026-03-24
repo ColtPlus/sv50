@@ -12,7 +12,7 @@
 | hdmi out | 3 |
 | hdmi in | 2 |
 | edp | 1 |
-| wifi&bt | mt7921au |
+| wifi&bt | 1 |
 | nvme/sata | 1 |
 | 1gb poe | 3 |
 | 1gb lan | 1 |
