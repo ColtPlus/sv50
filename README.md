@@ -40,5 +40,5 @@
 |XM25QH40BJIG| |
 |gd32fces| |
 |PI6C557-05BLE| |
-  
+|2# board| |
 |rtl8762cmf|bt|
