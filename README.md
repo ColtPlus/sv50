@@ -1,5 +1,5 @@
 
-| System Name    | IP Address  |
+|     |     |
 | -------------- | ----------- |
 | device | seewo-sv50 |
 | soc | rk3588 |
