@@ -24,7 +24,7 @@
   compatible = "rockchip,rk3588-nvr-demo-v10\0rockchip,rk3588"
   model = "Seewo SV50"
   board = "AV.RK3588.71"
-
+| 1#board |     |
 | -------------- | ----------- |
 |wb921au(mt7921au)| wifi&bt|
 |rtl8111h|10/100/1000M|
@@ -39,5 +39,5 @@
 |XM25QH40BJIG| |
 |gd32fces| |
 |PI6C557-05BLE| |
-|2# board| |
+| 2#board |     |
 |rtl8762cmf|bt|
