@@ -1,7 +1,6 @@
 
-| System Name    | Default Username | Default Password  | SSH Port  | IP Address  |
-| -------------- | ---------------- | ----------------- | --------- | ----------- |
-| ---- | ---- | ---- |
+| System Name    | IP Address  |
+| -------------- | ----------- |
 | device | seewo-sv50 |
 | soc | rk3588 |
 | ram | 8g |
