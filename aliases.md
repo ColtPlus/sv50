@@ -55,9 +55,6 @@ usbdrd3_0|okay
 usbhost3_0|okay
 rgb|disabled
 power-controller|okay
-# 节点名称和地址列表
-
-## 主要硬件节点
 gpu@fb000000 | okay | gpu
 usb@fc000000 | okay | usb_host0_xhci
 usb@fc800000 | okay | usb_host0_ehci
