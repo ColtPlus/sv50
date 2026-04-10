@@ -1,6 +1,6 @@
-disabled		csi2dcphy0 = "/csi2-dcphy0";
-okay			  csi2dcphy1 = "/csi2-dcphy1";		  	csi2_dcphy1
-disabled		csi2dphy0 = "/csi2-dphy0";
+disabled    csi2dcphy0 = "/csi2-dcphy0";
+okay        csi2dcphy1 = "/csi2-dcphy1";		  	csi2_dcphy1
+disabled    csi2dphy0 = "/csi2-dphy0";
 disabled		csi2dphy1 = "/csi2-dphy1";
 disabled		csi2dphy2 = "/csi2-dphy2";
 okay			  dsi0 = "/dsi@fde20000";				    	dsi0
