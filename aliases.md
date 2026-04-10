@@ -1,4 +1,6 @@
-name1                        status          name2
+                             
+|name1|status|name2|
+| -------------- | -------------- | -------------- |
 csi2-dcphy0 				disabled
 csi2-dcphy1 				okay
 csi2-dphy0 				    disabled
