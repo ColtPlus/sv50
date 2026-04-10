@@ -1,23 +1,15 @@
 
-|     |seewo|
-| -------------- |-------------- |
-|  |sv50/sv32|
-| soc | rk3588 |
-| ram | 8g |
-| emmc | 32g |
-| os | buildroot |
-| usb3 | 2 |
-| usb2 | 1 |
-| usbc | 1 |
-| hdmi out | 3 |
-| hdmi in | 2 |
-| edp | 1 |
-| wifi&bt | 1# |
-| nvme | 1# |
-| sata | 2# |
-| 1gb poe | 3 |
-| 1gb lan | 1 |
-| 100m poe | 1 |
+|||||
+| -------------- |-------------- |-------------- |-------------- |
+|sv50/sv32||
+| emmc | 32g | ram | 8g | os | buildroot |
+| usb3 | 2 | usb2 | 1 | usbc | 1 |
+| wifi&bt | 1# | 1gb lan | 1 | 100m poe | 1 |
+| hdmi out | 3 | hdmi in | 2 | edp | 1 |
+| nvme | 1# | sata | 2# | 1gb poe | 3 |
+
+
+
 
 | |
 | -------------- |
