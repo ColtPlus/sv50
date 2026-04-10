@@ -72,6 +72,7 @@ npu@fdab0000 | okay | rknn_core_0
 iommu@fdab9000 | okay | rknn_mmu_0
 vepu@fdb50000 | disabled | vpu121
 vdpu@fdb50400 | okay
+avsd-plus@fdb51000|disabled
 iommu@fdb50800 | okay | vpu121_mmu
 rga@fdb60000 | okay
 rga@fdb70000 | okay
