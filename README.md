@@ -1,7 +1,7 @@
 
 |     |seewo|
 | -------------- |-------------- |
-| # |sv50/sv32|
+|  |sv50/sv32|
 | soc | rk3588 |
 | ram | 8g |
 | emmc | 32g |
@@ -19,12 +19,14 @@
 | 1gb lan | 1 |
 | 100m poe | 1 |
 
-  compatible = "rockchip,rk3588-nvr-demo-v10\0rockchip,rk3588"
-  model = "Seewo SV50"
-  board = "AV.RK3588.71"
+| |
+| -------------- |
+|compatible = "rockchip,rk3588-nvr-demo-v10\0rockchip,rk3588"|
+|model = "Seewo SV50"|
+|board = "AV.RK3588.71"|
 
 
-|#|#|1#board|2#board|
+|||1#board|2#board|
 | -------------- | -------------- | -------------- | ------ |
 |wb921au(mt7921au)| wifi&bt|✔|X|
 |rtl8762cmf|bt|X|✔|
