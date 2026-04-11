@@ -69,7 +69,7 @@
 			linux,default-trigger = "heartbeat";
 			default-state = "on";
 			pinctrl-0 = <&sys_led_pin>;
-	};
+		};
 
 		led_r {
 			gpios = <&gpio2 RK_PC0 GPIO_ACTIVE_HIGH>;
@@ -567,7 +567,6 @@
 		reset_pin = <&gpio1 RK_PC2 GPIO_ACTIVE_HIGH>;
 		no_mclk;
 	};
-
 };
 
 &i2c5 {
@@ -1224,13 +1223,6 @@
 	status = "okay";
 };
 
-
-
-
-
-
-
-
 &package_thermal {
 	polling-delay = <1000>;
 
@@ -1268,7 +1260,3 @@
 &pd_npu {
 	domain-supply = <&vdd_npu_s0>;
 };
-
-
-
-
