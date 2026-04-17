@@ -23,12 +23,6 @@ BUILD_INFO="slave@lubo-server Wed Nov 15 23:22:04 CST 2023 - /home/slave/ci/work
 / # cat /proc/version
 Linux version 5.10.66-ab28 (slave@lubo-server) V3.23.8111523.1065642_26adabcb657d_VBoard (aarch64-none-linux-gnu-gcc (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)) 10.3.1 20210621, GNU ld (GNU Toolchain for the A-profile Architecture 10.3-2021.07 (arm-10.29)) 2.36.1.20210621) #2 SMP Wed Nov 15 23:18:32 CST 2023
 
-/ # cat /etc/redhat-release
-cat: /etc/redhat-release: No such file or directory
-
-/ # lsb_release -a 
-sh: lsb_release: command not found
-
 / # uname -a
 Linux SV32 5.10.66-ab28 #2 SMP Wed Nov 15 23:18:32 CST 2023 aarch64 GNU/Linux
 
