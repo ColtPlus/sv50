@@ -1,0 +1,173 @@
+DDR d5483af87d cym 23/11/23-16:15:24,fwver: v1.15
+LPDDR4X, 1800MHz
+channel[0] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[1] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[2] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[3] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+Manufacturer ID:0x1
+CH0 RX Vref:28.9%, TX Vref:21.8%,19.8%
+CH1 RX Vref:28.9%, TX Vref:21.8%,21.8%
+CH2 RX Vref:30.1%, TX Vref:19.8%,20.8%
+CH3 RX Vref:32.6%, TX Vref:20.8%,20.8%
+change to F1: 528MHz
+change to F2: 1068MHz
+change to F3: 1560MHz
+change to F0: 1800MHz
+out
+U-Boot SPL board init
+U-Boot SPL 2017.09-ge4e124926e-230922 #lxh (Sep 25 2023 - 10:58:38), fwver: v1.13
+unknown raw ID 0 0 0
+unrecognized JEDEC id bytes: 00, 00, 00
+Trying to boot from MMC2
+MMC: no card present
+mmc_init: -123, time 2
+spl: mmc init failed with error: -123
+Trying to boot from MMC1
+SPL: A/B-slot: _a, successful: 0, tries-remain: 7
+Trying fit image at 0x4000 sector
+## Verified-boot: 0
+## Checking atf-1 0x00040000 ... sha256(2e8446f969...) + OK
+## Checking uboot 0x00200000 ... sha256(6588998f0e...) + OK
+## Checking fdt 0x00346690 ... sha256(3f1d43fce0...) + OK
+## Checking atf-2 0xff100000 ... sha256(9f75e6ec37...) + OK
+## Checking atf-3 0x000f0000 ... sha256(c80587de50...) + OK
+## Checking optee 0x08400000 ... sha256(4b2d406bfc...) + OK
+Jumping to U-Boot(0x00200000) via ARM Trusted Firmware(0x00040000)
+Total: 144.576/379.244 ms
+
+INFO:    Preloader serial: 2
+NOTICE:  BL31: v2.3():v2.3-662-g4acbe711b-dirty:finley.xiao, fwver: v1.44
+NOTICE:  BL31: Built : 16:44:24, Nov  7 2023
+INFO:    spec: 0x1
+INFO:    code: 0x88
+INFO:    ext 32k is not valid
+INFO:    ddr: stride-en 4CH
+INFO:    GICv3 without legacy support detected.
+INFO:    ARM GICv3 driver initialized in EL3
+INFO:    valid_cpu_msk=0xff bcore0_rst = 0x0, bcore1_rst = 0x0
+INFO:    l3 cache partition cfg-0
+INFO:    system boots from cpu-hwid-0
+INFO:    idle_st=0x21fff, pd_st=0x11fff9, repair_st=0xfff70001
+INFO:    dfs DDR fsp_params[0].freq_mhz= 1800MHz
+INFO:    dfs DDR fsp_params[1].freq_mhz= 528MHz
+INFO:    dfs DDR fsp_params[2].freq_mhz= 1068MHz
+INFO:    dfs DDR fsp_params[3].freq_mhz= 1560MHz
+INFO:    BL31: Initialising Exception Handling Framework
+INFO:    BL31: Initializing runtime services
+INFO:    BL31: Initializing BL32
+I/TC: 
+I/TC: OP-TEE version: 3.13.0-752-g62aa10b78 #hisping.lin (gcc version 10.2.1 20201103 (GNU Toolchain for the A-profile Architecture 10.2-2020.11 (arm-10.16))) #2 Mon Sep 25 10:04:34 CST 2023 aarch64, fwver: v1.15 
+I/TC: Primary CPU initializing
+I/TC: Primary CPU switching to normal world boot
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x200000
+INFO:    SPSR = 0x3c9
+
+
+U-Boot 2017.09 (Jan 21 2026 - 13:56:53 +0800)
+
+Model: Rockchip RK3588 Evaluation Board
+MPIDR: 0x81000000
+PreSerial: 2, raw, 0xfeb50000
+DRAM:  8 GiB
+Sysmem: init
+Relocation Offset: eda17000
+Relocation fdt: eb9fa360 - eb9fecd0
+CR: M/C/I
+Using default environment
+
+Hotkey: ctrl+c
+optee api revision: 2.0
+mmc@fe2c0000: 1, mmc@fe2e0000: 0
+Bootdev(atags): mmc 0
+MMC0: HS400 Enhanced Strobe, 200Mhz
+PartType: EFI
+TEEC: Waring: Could not find security partition
+DM: v2
+boot mode: normal
+RESC: 'boot', blk@0x0001d8db
+resource: sha256+
+FIT: no signed, no conf required
+find rp_lcd_module hdmi
+find rp_lcd_module hdmi
+found rp_lcd_module hdmi
+DTB: rd-rk3588-ahd-hdmi0.dtb
+HASH(c): OK
+I2c0 speed: 100000Hz
+Device 'gpio@fd8a0000': seq 0 is in use by 'gpio@fd8a0000'
+en-gpios- not found!
+vdd_cpu_big0_s0 800000 uV
+en-gpios- not found!
+vdd_cpu_big1_s0 800000 uV
+I2c1 speed: 100000Hz
+en-gpios- not found!
+vdd_npu_s0 800000 uV
+spi2: RK806: 2
+ON=0x40, OFF=0x00
+vdd_gpu_s0 750000 uV
+vdd_cpu_lit_s0 750000 uV
+vdd_vdenc_s0 init 750000 uV
+Device 'gpio@fec20000': seq 1 is in use by 'gpio@fd8a0000'
+serdes_power_init failed to get serdes misc device
+get vp0 plane mask:0x5, primary id:2, cursor_plane:-1, from dts
+get vp1 plane mask:0xa, primary id:3, cursor_plane:-1, from dts
+get vp2 plane mask:0x140, primary id:8, cursor_plane:-1, from dts
+get vp3 plane mask:0x280, primary id:9, cursor_plane:-1, from dts
+Could not find baseparameter partition
+Model: rd-rk3588-ahd
+MPIDR: 0x81000000
+rpdzkj: pull down gpio0_b2 for init wifi
+eth0addr = 06:18:0b:90:1f:26
+eth1addr = 0e:f2:d2:66:23:42
+eth2addr = fe:45:e3:34:72:e8
+eth3addr = 7a:76:ac:81:be:5a
+Minidump: init...
+Rockchip UBOOT DRM driver version: v1.0.1
+vp0 have layer nr:2[0 2 ], primary plane: 2
+vp1 have layer nr:2[1 3 ], primary plane: 3
+vp2 have layer nr:2[6 8 ], primary plane: 8
+vp3 have layer nr:2[7 9 ], primary plane: 9
+hdmi@fde80000 disconnected
+CLK: (sync kernel. arm: enter 1008000 KHz, init 1008000 KHz, kernel 0N/A)
+  b0pll 24000 KHz
+  b1pll 24000 KHz
+  lpll 24000 KHz
+  v0pll 24000 KHz
+  aupll 786431 KHz
+  cpll 1500000 KHz
+  gpll 1188000 KHz
+  npll 850000 KHz
+  ppll 1100000 KHz
+  aclk_center_root 702000 KHz
+  pclk_center_root 100000 KHz
+  hclk_center_root 396000 KHz
+  aclk_center_low_root 500000 KHz
+  aclk_top_root 750000 KHz
+  pclk_top_root 100000 KHz
+  aclk_low_top_root 396000 KHz
+Net:   eth1: ethernet@fe1c0000
+
+Initializing SD card detection...
+SD card reinitialized in U-Boot
+mmc@fe2c0000: 1
+mmc@fe2e0000: 0 (eMMC)Device 'mmc@fe2c0000': seq 1 is in use by 'mmc@fe2c0000'
+
+mmc@fe2c0000: 1Device 'mmc@fe2e0000': seq 0 is in use by 'mmc@fe2e0000'
+
+mmc@fe2e0000: 0
+MMC: no card present
+mmc_init: -123, time 1
+Checking SD card detection...
+MMC: no card present
+MMC error: The cmd index is 0, ret is -110
+Card did not respond to voltage select!
+mmc_init: -95, time 3519
+SD card init failed: -95
+SD card not present
+mmc@fe2c0000: 1
+mmc@fe2e0000: 0 (eMMC)
+mmc@fe2c0000: 1
+mmc@fe2e0000: 0
+switch to partitions #0, OK
+mmc0(part 0) is current device
+Hit key to stop autoboot('CTRL+C'):  0 
