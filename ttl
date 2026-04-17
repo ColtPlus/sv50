@@ -1,0 +1,268 @@
+DDR Version V1.08 20220617
+LPDDR4X, 2112MHz
+channel[0] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[1] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[2] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+channel[3] BW=16 Col=10 Bk=8 CS0 Row=16 CS1 Row=16 CS=2 Die BW=16 Size=2048MB
+Manufacturer ID:0x1 Samsung
+CH0 RX Vref:31.7%, TX Vref:19.8%,20.8%
+CH1 RX Vref:30.7%, TX Vref:21.8%,21.8%
+CH2 RX Vref:30.7%, TX Vref:18.8%,20.8%
+CH3 RX Vref:33.7%, TX Vref:20.8%,20.8%
+change to F1: 528MHz
+change to F2: 1068MHz
+change to F3: 1560MHz
+change to F0: 2112MHz
+out
+U-Boot SPL board init
+U-Boot SPL 2017.09-gc060f28d70-220414 #zyf (Apr 18 2022 - 18:13:34)
+Failed to set cpub01
+Failed to set cpub23
+unknown raw ID phN
+unrecognized JEDEC id bytes: 00, 00, 00
+Trying to boot from MMC2
+MMC: no card present
+mmc_init: -123, time 0
+spl: mmc init failed with error: -123
+Trying to boot from MMC1
+Trying fit image at 0x4000 sector
+## Verified-boot: 0
+## Checking atf-1 0x00040000 ... sha256(ac799e4aa0...) + OK
+## Checking uboot 0x00200000 ... sha256(9065b9a463...) + OK
+## Checking fdt 0x003369d0 ... sha256(c07f4a4d71...) + OK
+## Checking atf-2 0xff100000 ... sha256(c0f2f7769f...) + OK
+## Checking atf-3 0x000f0000 ... sha256(338cd7cb83...) + OK
+## Checking optee 0x08400000 ... sha256(0bd6e7b910...) + OK
+Jumping to U-Boot(0x00200000) via ARM Trusted Firmware(0x00040000)
+Total: 114.797 ms
+
+INFO:    Preloader serial: 2
+NOTICE:  BL31: v2.3():v2.3-557-g9609b9c19:derrick.huang
+NOTICE:  BL31: Built : 14:29:57, Mar  8 2023
+INFO:    spec: 0x1
+INFO:    ext 32k is not valid
+INFO:    ddr: stride-en 4CH
+INFO:    GICv3 without legacy support detected.
+INFO:    ARM GICv3 driver initialized in EL3
+INFO:    valid_cpu_msk=0xff bcore0_rst = 0x0, bcore1_rst = 0x0
+INFO:    system boots from cpu-hwid-0
+INFO:    idle_st=0x21fff, pd_st=0x11fff9, repair_st=0xfff70001
+INFO:    dfs DDR fsp_params[0].freq_mhz= 2112MHz
+INFO:    dfs DDR fsp_params[1].freq_mhz= 528MHz
+INFO:    dfs DDR fsp_params[2].freq_mhz= 1068MHz
+INFO:    dfs DDR fsp_params[3].freq_mhz= 1560MHz
+INFO:    BL31: Initialising Exception Handling Framework
+INFO:    BL31: Initializing runtime services
+INFO:    BL31: Initializing BL32
+I/TC: 
+I/TC: OP-TEE version: 3.13.0-637-g7ef2a818a5-dev #xb.wang (gcc version 10.2.1 20201103 (GNU Toolchain for the A-profile Architecture 10.2-2020.11 (arm-10.16))) #20 Wed Mar  9 11:43:59 CST 2022 aarch64
+I/TC: Primary CPU initializing
+I/TC: Primary CPU switching to normal world boot
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x200000
+INFO:    SPSR = 0x3c9
+
+
+U-Boot 2017.09-g2b0190856e-220923 #slave (Nov 15 2023 - 23:16:00 +0800), Build: jenkins-lubo-kdl_rk3588_sdk_test-28
+
+Model: Rockchip RK3588 Evaluation Board
+PreSerial: 2, raw, 0xfeb50000
+DRAM:  7.7 GiB
+Sysmem: init
+Relocation Offset: eda40000
+Relocation fdt: eb9fa6a8 - eb9fecd8
+CR: M/C/I
+Using default environment
+
+mmc@fe2c0000: 1, mmc@fe2e0000: 0
+Bootdev(atags): mmc 0
+MMC0: HS200, 200Mhz
+PartType: EFI
+DM: v2
+boot mode: None
+FIT: no signed, no conf required
+DTB: rk-kernel.dtb
+HASH(c): OK
+I2c0 speed: 100000Hz
+vsel-gpios- not found!
+en-gpios- not found!
+vdd_cpu_big0_s0 800000 uV
+vsel-gpios- not found!
+en-gpios- not found!
+vdd_cpu_big1_s0 800000 uV
+I2c1 speed: 100000Hz
+vsel-gpios- not found!
+en-gpios- not found!
+vdd_npu_s0 800000 uV
+spi2: RK806: 2
+ON=0x00, OFF=0x00
+vdd_gpu_s0 750000 uV
+vdd_cpu_lit_s0 750000 uV
+vdd_vdenc_s0 init 750000 uV
+* * * * * * * kdl_gpio_init * * * * * * *
+reg=0
+ .... kdl G1B0_U_PCIEx4_CLKREQN.... 
+kdl reg=0
+ .... G4C5 PSE and G4C4.... 
+get vp0 plane mask:0x5, primary id:2, cursor_plane:-1, from dts
+get vp1 plane mask:0xa, primary id:3, cursor_plane:-1, from dts
+get vp2 plane mask:0x140, primary id:8, cursor_plane:-1, from dts
+get vp3 plane mask:0x280, primary id:9, cursor_plane:-1, from dts
+route node define force_timing, use 1024x768p0 as default mode
+route node define force_timing, use 1024x768p0 as default mode
+route node define force_timing, use 1024x768p0 as default mode
+Could not find baseparameter partition
+Model: Seewo SV50
+eth0 MAC: 90:e4:68:52:8e:13
+eth1 MAC: 90:e4:68:52:8e:14
+Rockchip UBOOT DRM driver version: v1.0.1
+vp0 have layer nr:2[0 2 ], primary plane: 2
+vp1 have layer nr:2[1 3 ], primary plane: 3
+vp2 have layer nr:2[6 8 ], primary plane: 8
+vp3 have layer nr:2[7 9 ], primary plane: 9
+Using display timing dts
+dsi@fde20000:  detailed mode clock 138500 kHz, flags[a]
+    H: 1920 1968 2000 2080
+    V: 1080 1083 1088 1111
+bus_format: 100e
+VOP update mode to: 1920x1080p60, type: MIPI0 for VP3
+VP3 set crtc_clock to 138499KHz
+VOP VP3 enable Esmart3[480x160->480x160@720x460] fmt[2] addr[0xedf14000]
+final DSI-Link bandwidth: 924026 Kbps x 4
+hdmi@fde80000 disconnected
+i2c read err!
+i2c read err!
+i2c read err!
+i2c read err!
+i2c read err!
+can't get edid block:0
+failed to get edid
+Could not find baseparameter partition
+color_format:0
+hdmi_select_link_config use tmds mode
+mode:1024x768 bus_format:0x100a
+hdmi@fde80000: use force output detailed mode clock 65000 kHz, flags[a]
+    H: 1024 1048 1184 1344
+    V: 0768 0771 0777 0806
+bus_format: 100a
+VOP update mode to: 1024x768p60, type: HDMI0 for VP0
+dclk:65000,if_pixclk_div;2,if_dclk_div:4
+VP0 set crtc_clock to 62526KHz
+VOP VP0 enable Esmart0[480x160->480x160@272x304] fmt[2] addr[0xedf14000]
+Non-CEA mode used in HDMI
+mtmdsclock:65000000
+hdptx_ropll_cmn_config bus_width:9eb10 rate:650000
+hdptx phy pll locked!
+dw_hdmi_setup HDMI mode
+don't use dsc mode
+dw hdmi qp use tmds mode
+bus_width:0x9eb10,bit_rate:650000
+hdptx phy lane locked!
+dp@fde60000 disconnected
+dp@fde60000: use force output detailed mode clock 65000 kHz, flags[a]
+    H: 1024 1048 1184 1344
+    V: 0768 0771 0777 0806
+bus_format: 100a
+VOP update mode to: 1024x768p60, type: DP1 for VP2
+VP2 set crtc_clock to 65000KHz
+VOP VP2 enable Esmart2[480x160->480x160@272x304] fmt[2] addr[0xedf14000]
+hdmi@fdea0000 disconnected
+i2c read err!
+i2c read err!
+i2c read err!
+i2c read err!
+i2c read err!
+can't get edid block:0
+failed to get edid
+Could not find baseparameter partition
+color_format:0
+hdmi_select_link_config use tmds mode
+mode:1024x768 bus_format:0x100a
+hdmi@fdea0000: use force output detailed mode clock 65000 kHz, flags[a]
+    H: 1024 1048 1184 1344
+    V: 0768 0771 0777 0806
+bus_format: 100a
+VOP update mode to: 1024x768p60, type: HDMI1 for VP1
+dclk:65000,if_pixclk_div;2,if_dclk_div:4
+VP1 set crtc_clock to 62526KHz
+VOP VP1 enable Esmart1[480x160->480x160@272x304] fmt[2] addr[0xedf14000]
+Non-CEA mode used in HDMI
+mtmdsclock:65000000
+hdptx_ropll_cmn_config bus_width:9eb10 rate:650000
+hdptx phy pll locked!
+dw_hdmi_setup HDMI mode
+don't use dsc mode
+dw hdmi qp use tmds mode
+bus_width:0x9eb10,bit_rate:650000
+hdptx phy lane locked!
+CLK: (uboot. arm: enter 1008000 KHz, init 1008000 KHz, kernel 0N/A)
+  b0pll 24000 KHz
+  b1pll 24000 KHz
+  lpll 24000 KHz
+  v0pll 650000 KHz
+  aupll 692499 KHz
+  cpll 1500000 KHz
+  gpll 1188000 KHz
+  npll 850000 KHz
+  ppll 100000 KHz
+  aclk_center_root 702000 KHz
+  pclk_center_root 100000 KHz
+  hclk_center_root 396000 KHz
+  aclk_center_low_root 500000 KHz
+  aclk_top_root 594000 KHz
+  pclk_top_root 100000 KHz
+  aclk_low_top_root 396000 KHz
+Net:   FEC: can't find phy-handle
+eth1: ethernet@fe1c0000
+* * * * * kdl : autoboot_command * * * * *
+key is not pressed
+Autoboot in 2 seconds
+ANDROID: reboot reason: "(none)"
+optee api revision: 2.0
+TEEC: Waring: Could not find security partition
+Not AVB images, AVB skip
+No valid android hdr
+Android image load failed
+Android boot failed, error -1.
+## Booting FIT Image at 0xe9a7d880 with size 0x01d7be00
+Fdt Ramdisk skip relocation
+## Loading kernel from FIT Image at e9a7d880 ...
+   Using 'conf' configuration
+## Verified-boot: 0
+   Trying 'kernel' kernel subimage
+     Description:  unavailable
+     Type:         Kernel Image
+     Compression:  uncompressed
+     Data Start:   0xe9aa4c80
+     Data Size:    30754824 Bytes = 29.3 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x00400000
+     Entry Point:  0x00400000
+     Hash algo:    sha256
+     Hash value:   76882ab11ab9b2379dc9d254919afb121588a4fe5221e7567c272b8621eb7e37
+   Verifying Hash Integrity ... sha256+ OK
+## Loading fdt from FIT Image at e9a7d880 ...
+   Using 'conf' configuration
+   Trying 'fdt' fdt subimage
+     Description:  unavailable
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0xe9a7e080
+     Data Size:    158356 Bytes = 154.6 KiB
+     Architecture: AArch64
+     Load Address: 0x0a100000
+     Hash algo:    sha256
+     Hash value:   3742d981309c1808869c6d4e6942dec33d94294e16f243f8350c88b26cdda211
+   Verifying Hash Integrity ... sha256+ OK
+   Loading fdt from 0x0a100000 to 0x0a100000
+   Booting using the fdt blob at 0x0a100000
+   Loading Kernel Image from 0xe9aa4c80 to 0x00400000 ... OK
+   kernel loaded at 0x00400000, end = 0x02154808
+   Using Device Tree in place at 000000000a100000, end 000000000a129a93
+Adding bank: 0x00200000 - 0x08400000 (size: 0x08200000)
+Adding bank: 0x09400000 - 0xf0000000 (size: 0xe6c00000)
+Adding bank: 0x100000000 - 0x200000000 (size: 0x100000000)
+Total: 3964.341 ms
+
+Starting kernel ...
