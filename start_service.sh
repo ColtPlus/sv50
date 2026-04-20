@@ -1,13 +1,55 @@
-#led_b
+//led
+#G4C3_D_LED_B
 gpioset 4 19=1
-#led_r
+#G2C0_D_LED_R
 gpioset 2 16=1
 
-#USB30_PWREN_A
-gpioset 4 27=1
-#USB30_PWREN_B
-gpioset 1 25=1
-#USB20_PWREN_A
+//usb
+#G1D1_D_USB30_PWREN_B
+gpioset 1 25=0
+#G4D2_U_USB20_PWREN_A
 gpioset 4 26=1
-#WIFI_PWREN
+#G4D3_U_USB30_PWREN_A
+gpioset 4 27=1
+#G1B3_D_HUB30_RST
+#G4D0_U_HUB20_RST
+
+//wifi
+#G2B0_U_WIFI_PWREN
 gpioset 2 8=1
+#G2B4_U_WIFI_RST
+
+//hdmi
+#G4B5_D_HDMITX0_ON_IC
+gpioset 4 13=0
+#G4B6_D_HDMITX1_ON_IC
+gpioset 4 14=0
+
+//
+G1A0_D_MCU_BOOT
+//
+#G1D0_D_MCU_RST
+//
+#G1A4_D_MCU_UP_SW
+//
+#G2B5_U_AU_PWREN
+//
+#G2C4_D_DSP_GPIO_S0
+//
+#G2C1_D_DSP_GPIO_S1
+//
+#G2C2_D_DSP_GPIO_S2
+//
+#G1D2_D_5G_PWREN
+//
+#G1D3_D_5G_RST
+//
+#G4C5_D_PSE_PWREN
+//
+#G2B1_U_AP_PWREN
+//
+#G1D5_D_TP_PWREN
+//
+#G1C4_D_TP_RST
+//
+#G4D1_U_PWREN_IC
