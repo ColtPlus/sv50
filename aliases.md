@@ -1,5 +1,5 @@
-|name1|status|name2|
-| -------------- | -------------- | -------------- |
+|name|status|6.x|5.x|
+| -------------- | -------------- | -------------- | -------------- |
 csi2-dcphy0|disabled
 csi2-dcphy1|okay
 csi2-dphy0|disabled
