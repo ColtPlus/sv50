@@ -25,25 +25,28 @@ gpioset 4 13=0
 #G4B6_D_HDMITX1_ON_IC
 gpioset 4 14=0
 
-//
+//MCU
 G1A0_D_MCU_BOOT
-//
+
 #G1D0_D_MCU_RST
-//
+
 #G1A4_D_MCU_UP_SW
+
 //
 #G2B5_U_AU_PWREN
-//
+
+//DSP
 #G2C4_D_DSP_GPIO_S0
-//
+
 #G2C1_D_DSP_GPIO_S1
-//
+
 #G2C2_D_DSP_GPIO_S2
-//
+
+
 #G1D2_D_5G_PWREN
-//
+
 #G1D3_D_5G_RST
-//
+
 #G4C5_D_PSE_PWREN
 //
 #G2B1_U_AP_PWREN
