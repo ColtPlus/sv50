@@ -93,6 +93,32 @@ G1A0_D_MCU_BOOT;
 	&gpio4 RK_PC3 0x07
 	4 RK_PC3 0x00 0x07
 
-0G2C0_D_LED_R";
+0G2C0_D_LED_R;
 	&gpio2 RK_PC0 0x07
 	4 RK_PC0 0x00 0x07
+	
+G1A0_D_MCU_BOOT             MCU 启动配置引脚
+G1D0_D_MCU_RST              MCU 复位
+G1A4_D_MCU_UP_SW            MCU 升级开关
+0G2B5_U_AU_PWREN            AU 音频模块 电源使能
+0G2C4_D_DSP_GPIO_S0         DSP 通用IO
+0G2C1_D_DSP_GPIO_S1         DSP 通用IO
+0G2C2_D_DSP_GPIO_S2         DSP 通用IO
+0G2B0_U_WIFI_PWREN          Wi-Fi 电源使能
+0G2B4_U_WIFI_RST            Wi-Fi 复位
+0G1D2_D_5G_PWREN            5G 模块 电源使能
+0G1D3_D_5G_RST              5G 模块 复位
+0G4C5_D_PSE_PWREN           PSE 以太网供电 电源使能
+0G2B1_U_AP_PWREN            AP 无线模块 电源使能
+0G1D5_D_TP_PWREN            TP 触摸屏 电源使能️
+0G1C4_D_TP_RST              TP 触摸屏 复位
+0G4D0_U_HUB20_RST           USB2.0 HUB 复位
+0G1D1_D_USB30_PWREN_B       USB3.0 电源使能 B
+0G4D2_U_USB20_PWREN_A       USB2.0 电源使能 A
+0G4D3_U_USB30_PWREN_A       USB3.0 电源使能 A
+0G1B3_D_HUB30_RST           USB3.0 HUB 复位
+0G4B5_D_HDMITX0_ON_IC       HDMI0 输出使能
+0G4B6_D_HDMITX1_ON_IC       HDMI1 输出使能
+0G4D1_U_PWREN_IC            芯片/系统总电源使能
+0G4C3_D_LED_B               蓝色 LED
+0G2C0_D_LED_R               红色 LED
