@@ -6,7 +6,7 @@ gpioset 2 16=1
 
 //usb
 #G1D1_D_USB30_PWREN_B
-gpioset 1 25=0
+gpioset 1 25=1
 #G4D2_U_USB20_PWREN_A
 gpioset 4 26=1
 #G4D3_U_USB30_PWREN_A
