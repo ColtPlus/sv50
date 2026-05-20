@@ -28,10 +28,10 @@
 |lt8911exb|MIPI? DSI/CSI to eDP|✔|✔|
 |vl817|USB 3.1 Gen1 Hub|✔|✔|
 |3peak t480|rs485|✔|✔|
-|ip804a|PoE PSE IC|✔|✔|
+|ip804a|PoE|✔|✔|
 |bl5372|RTC|✔|✔|
 |sgm330a-yqs||✔|✔|
-|acm8625p||✔|✔|
+|acm8625p|audio|✔|✔|
 |XM25QH40BJIG||✔|✔|
 |gd32fces||✔|✔|
 |PI6C557-05BLE||✔|✔|
