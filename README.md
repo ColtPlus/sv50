@@ -11,7 +11,9 @@
 |model = "Seewo SV50"|
 |board = "AV.RK3588.71"|
 
-
+<div align="center">
+    <img alt="SV50" src="https://github.com/ColtPlus/sv50/blob/main/img_sv50_antenna.png" />
+</div>
 
 
 
