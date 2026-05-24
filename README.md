@@ -11,16 +11,6 @@
 |model = "Seewo SV50"|
 |board = "AV.RK3588.71"|
 
-<div align="center">
-    <img alt="SV50" src="https://github.com/ColtPlus/sv50/blob/main/img_sv50_antenna.png" />
-</div>
-
-
-
-
-
-
-
 |板载芯片||sv32|sv50|
 | -------------- | -------------- | ------ | ------ |
 |wb921au(mt7921au)| wifi&bt|✔|X|
@@ -37,5 +27,7 @@
 |XM25QH40BJIG||✔|✔|
 |gd32fces||✔|✔|
 |PI6C557-05BLE||✔|✔|
-
-
+<div align="center">
+    <img alt="SV32" src="[https://github.com/ColtPlus/sv50/blob/main/1%231.jpg]" />
+    <img alt="SV50" src="[https://github.com/ColtPlus/sv50/blob/main/2%231.jpg]" />
+</div>
