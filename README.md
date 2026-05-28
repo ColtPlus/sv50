@@ -27,7 +27,3 @@
 |XM25QH40BJIG||✔|✔|
 |gd32fces||✔|✔|
 |PI6C557-05BLE||✔|✔|
-<div align="center">
-    <img alt="SV32" src="https://github.com/ColtPlus/sv50/blob/main/1%231.jpg" />
-    <img alt="SV50" src="https://github.com/ColtPlus/sv50/blob/main/2%231.jpg" />
-</div>
